@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Zen Old Mincho', serif;
+    width: 100%;
+    padding: 1%;
+  }
+  
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.4em;
+    text-shadow: 2px 2px 0.5px rgb(202, 200, 194);
+    letter-spacing: 2px;
+    
+  }
+
+  h3 {
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 2em;
+    margin: 0;
+    padding: 3%;
+    text-shadow: 1px 0.5px 0.5px rgb(202, 200, 194);
+  }
+
+  h4 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2em; 
+    text-align: center; 
+    text-shadow: 1px 0.5px 0.5px rgb(202, 200, 194);
+    padding-top: 4%;
+  }
+
+  a {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-justify: center;
+    text-shadow: 2px 1.5px 1.5px rgb(58, 51, 32);
+  }
+
+
+
+  
+  .header {
+    
+    height: 8%;
+    width: 100%;
+    padding-left: 2%;
+    border: 0.3rem double rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(206, 206, 206), rgb(235, 235, 235), rgb(255, 255, 255),  rgb(219, 219, 219));
+    
+  }
+
+  .container {
+    height: 92%;
+    width: 100%;
+    
+    display: inline-flex;
+  }
+  
+  .largebox {
+    
+    background-size: 100% 100%;
+    
+    width: 95%;
+    background-image: url('../assets/cover.jpg');
+    
+  }
+
+  .booktitle {
+    padding-top: 5%;
+    text-align: center;
+  }
+  
+  .smallbox {
+   
+    background-image: linear-gradient(to right, rgb(71, 71, 71), rgb(107, 107, 107), rgb(175, 175, 175), rgb(201, 201, 201), rgb(175, 175, 175), rgb(201, 201, 201), rgb(175, 175, 175), rgb(201, 201, 201), rgb(175, 175, 175), rgb(201, 201, 201), rgb(175, 175, 175),  rgb(107, 107, 107),rgb(71, 71, 71));
+    background-size: 100% 100%;
+    padding: 28% 0 28% 0;
+    
+    
+    width: 7%;
+ 
+  
+  }
+ 
+  .smallbox:hover {
+    color: #111;
+  
+    
+  }
+
+
+ 
+  
+
+
+ .beginhere {
+    
+  padding: 4% 1% 5% 1%;
+  margin-bottom: 100%;
+    transform:rotate(90deg) translateX(100%);
+  color: rgb(243, 242, 239);
+  font-size: 1.3em;
+  text-shadow: 1.5px 0.5px 0.5px rgb(56, 49, 33);
+  
+  
+  }
+
+  .beginhere:hover {
+    color: #111;
+    letter-spacing: 6px;
+    transition: 1s; 
+     
+  }
+
+ 
+
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  @screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
